@@ -1,0 +1,12 @@
+#Referência: https://docs.ultralytics.com/yolov5/tutorials/train_custom_data/#21-create-datasetyaml
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
+
+path: ./datasets  # dataset root dir
+train: ./train  # train images (relative to 'path')
+val: ./valid  # val images (relative to 'path')
+test: ./test  # test images (relative to 'path')
